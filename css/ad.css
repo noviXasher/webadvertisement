@@ -1,0 +1,87 @@
+@font-face{
+	font-family: 'Resmont SemiBold';
+	src:url(../fonts/Resmont-SemiBold.otf) format('opentype')
+}
+
+@font-face{
+	font-family: 'LeagueMono VF';
+	src:url(../fonts/LeagueMono-VF.ttf) format('truetype')
+}
+
+@font-face{
+	font-family: 'MiguerSans Regular';
+	src:url(../fonts/MiguerSans-Regular.otf) format('opentype')
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+
+.frame {
+	width: 970px;
+	height: 250px;
+	border: solid 1px gray;
+	background: url("../images/Prime.avif") no-repeat left;
+	background-size: 20%;
+	position: relative;
+}
+
+
+.title{
+	font-family: 'MiguerSans Regular';
+	font-size: 60px;
+	width: 1000px;
+	text-align: left;
+	color: #5babc7;
+	letter-spacing: 0.1px;
+	position: absolute;
+	left: 140px;
+	top: 30px;
+}
+
+.description{
+	font-family: 'Resmont SemiBold';
+	font-size: 32px;
+	width: 550px;
+	text-align: left;
+	color: #000000;
+	letter-spacing: 0.1px;
+	margin-left: 160px;
+	margin-top: 5px;
+	position: absolute;
+	left: -18px;
+	top: 90px;
+}
+
+.link{
+	font-family: 'LeagueMono VF';
+	font-size: 16px;
+	font-weight: 600;
+	width: 600px;
+	text-align: center;
+	color: #ec595b;
+	letter-spacing: 3px;
+	position: frame;
+	border: solid 2px #939393;
+	width: 200px;
+	line-height: 20px;
+	padding: 10px 0 10px 0;
+	text-decoration: none;
+	transition: 0.6s;
+	position: absolute;
+	left: 143px;
+	top: 168px;
+}
+
+.link:hover{
+	color: #ec595b;
+	background: #c0efff;
+	transition: 0.6s;
+}
+
+
